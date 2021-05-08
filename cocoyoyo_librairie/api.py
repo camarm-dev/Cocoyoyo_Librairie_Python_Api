@@ -6,7 +6,6 @@ You can run the getting_started.py file to start with the api !
 
 from requests import get as g
 from json import loads as j_l
-from json import __init__
 import json
 import requests
 import colorama
@@ -177,10 +176,11 @@ if __name__ == "cocoyoyo_librairie.api":
     __new_max_version__ = __max_version__.replace('.', '')
     if int(requests.__version__[:1]) < 2:
         raise CocoyoyoLibrairie_Exception(f"The version of your requests lib isn't valable, she must be 2 or + and she "
-                                              f"is {int(requests.__version__[:1])} ({requests.__version__})")
+                                          f"is {int(requests.__version__[:1])} ({requests.__version__}) do pip(3) i"
+                                          f"nstall requests --upgrade")
     if int(__new_max_version__) > int(__new_version__):
         print(colorama.Fore.RED + f"Your version of CocoyoyoLibrairie API isn't the max version, she is {__version__} a"
-                                  f"nd she can be {str(__max_version__)}, https://github.com/CAMARMFlipz/Cocoyoyo_Libra"
-                                  f"irie_Python_Api for upgrade" + colorama.Fore.RESET)
+                                  f"nd she can be {str(__max_version__)}, pip install git+https://github.com/CAMARMFlip"
+                                  f"z/Cocoyoyo_Librairie_Python_Api for upgrade" + colorama.Fore.RESET)
     elif int(__new_max_version__) < int(__new_version__) and int(requests.__version__[:1]) > 2:
         pass
