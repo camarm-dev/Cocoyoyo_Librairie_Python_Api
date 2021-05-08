@@ -1,5 +1,24 @@
-import os
+from setuptools import setup, find_packages
 
-print('Install requirements...')
-os.system('pip3 install -r requirements.txt')
-print('Finish')
+VERSION = '1.0.0'
+DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
+LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
+
+setup(
+    name="Official CocoyoyoLibrairie API",
+    version=VERSION,
+    description=DESCRIPTION,
+    long_description=LONG_DESCRIPTION,
+    author="CAMARM-DEV",
+    author_email="armand@camponovo.xyz",
+    license='MIT',
+    packages=find_packages(),
+    install_requires=[],
+    keywords='conversion',
+    classifiers= [
+        "Development Status :: 1 - Version",
+        "Intended Audience :: Developers",
+        'License :: OSI Approved :: MIT License',
+        "Programming Language :: Python :: 3",
+    ]
+)
