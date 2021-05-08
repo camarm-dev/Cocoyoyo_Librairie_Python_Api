@@ -6,14 +6,17 @@ from cocoyoyo_librairie.api import CocoyoyoLibrairie, CocoyoyoLibrairie_Exceptio
 """ else: """
 module = CocoyoyoLibrairie()
 
+# search a book
 search = module.search('Petit')
 """ Uncomment below to view result """
 # pprint(search)
 
+# search a book by his id
 search_id = module.search_id(search['resultat_livres'][0]['id'])
 """ Uncomment below to view result """
 # pprint(search_id)
 
+# search a book by his isbn (WARNING !!! ALL BOOKS FIND WITH THIS METHOD AREN'T NECESSARILY IN THE COCOYOYOLIBRAIRIE)
 search_isbn = module.search_isbn(9791035204396)
 """ Uncomment below to view result """
 # pprint(search_isbn)
