@@ -5,7 +5,7 @@ DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
 LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
 
 setup(
-    name="Official CocoyoyoLibrairie API",
+    name="cocoyoyo_librairie",
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
