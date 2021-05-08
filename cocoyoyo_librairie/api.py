@@ -6,7 +6,20 @@ You can run the getting_started.py file to start with the api !
 
 from requests import get as g
 from json import loads as j_l
+from json import __init__
 import json
+import requests
+import colorama
+
+
+__title__ = 'CocoyoyoLibrairie Official API'
+__description__ = 'CocoyoyoLibrairie Official API.'
+__url__ = 'https://www.camarm.dev'
+__max_version__ = g('https://www.camarm.dev/api/cocoyoyo-librairie_official_api/version').content.decode("utf-8")
+__version__ = "1.0.0"
+__author__ = 'CAMARM-DEV'
+__author_email__ = 'armand.camponovo@icloud.com'
+__copyright__ = 'Copyright 2021 CAMARM-DEV, inc'
 
 
 class CocoyoyoLibrairie:
@@ -156,3 +169,18 @@ class CocoyoyoLibrairie_Exception(Exception):
     """
     Exceptions of CocoyoyoLibrairie API
     """
+
+
+if __name__ == "cocoyoyo_librairie.api":
+    colorama.init()
+    __new_version__ = __version__.replace('.', '')
+    __new_max_version__ = __max_version__.replace('.', '')
+    if int(requests.__version__[:1]) < 2:
+        raise CocoyoyoLibrairie_Exception(f"The version of your requests lib isn't valable, she must be 2 or + and she "
+                                              f"is {int(requests.__version__[:1])} ({requests.__version__})")
+    if int(__new_max_version__) > int(__new_version__):
+        print(colorama.Fore.RED + f"Your version of CocoyoyoLibrairie API isn't the max version, she is {__version__} a"
+                                  f"nd she can be {str(__max_version__)}, https://github.com/CAMARMFlipz/Cocoyoyo_Libra"
+                                  f"irie_Python_Api for upgrade" + colorama.Fore.RESET)
+    elif int(__new_max_version__) < int(__new_version__) and int(requests.__version__[:1]) > 2:
+        pass
