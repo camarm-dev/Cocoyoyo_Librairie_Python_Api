@@ -13,9 +13,11 @@ setup(
     author_email="armand@camponovo.xyz",
     license='MIT',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['requests~=2.25.1',
+                      'colorama~=0.4.4',
+                      ],
     keywords='conversion',
-    classifiers= [
+    classifiers=[
         "Development Status :: 1 - Version",
         "Intended Audience :: Developers",
         'License :: OSI Approved :: MIT License',
