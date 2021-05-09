@@ -1,7 +1,17 @@
 # Cocoyoyo_Librairie_Python_Api
-Official Cocoyoyolibrairie Python Api
+### Official Cocoyoyolibrairie Python Api 
+### Search books and users in the [cocoyoyolibrairie](https://cocoyoyo-librairie.camponovo.space) with this package !
 
 # Getting Started:
+## Install:
+```shell
+pip3 install cocoyoyo-librairie-api
+```
+## Upgrade:
+```shell
+pip3 install cocoyoyo-librairie-api --upgrade
+```
+## Starting code:
 ```python
 from pprint import pprint
 from cocoyoyo_librairie_api.api import CocoyoyoLibrairie, CocoyoyoLibrairie_Exception
@@ -49,3 +59,14 @@ try:
 except CocoyoyoLibrairie_Exception as e:
     print(f'An exception occurred !\n{e.__class__}: {"".join(e.args)} !')
 ```
+# Links / Developer / Contribute:
+### CocoyoyoLibrairie Official API made with ❤️ by CAMARM-DEV for CAMARM-DEV, inc
+###- [Repository](https://github.com/CAMARMFlipz/Cocoyoyo_Librairie_Python_Api)
+###- [Contributors](https://github.com/CAMARMFlipz/Cocoyoyo_Librairie_Python_Api/graphs/contributors) 
+###- [Pypi](https://pypi.org/project/cocoyoyo-librairie-api/) 
+###- [CAMARM-DEV Website](https://www.camarm.dev) 
+###- [Gitlab Profile](https://gitlab.com/CAMARM_Flipz) 
+###- [Pypi Profile](https://pypi.org/user/CAMARM-DEV/) 
+###- [Discord](https://discord.com/invite/TNRtCvnR7b) 
+###- [Version History](https://pypi.org/project/cocoyoyo-librairie-api/#history) 
+#### Copyright 2021 [CAMARM-DEV](https://www.camarm.dev), inc 

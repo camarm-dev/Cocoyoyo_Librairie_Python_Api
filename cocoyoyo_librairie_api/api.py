@@ -15,7 +15,7 @@ __title__ = 'CocoyoyoLibrairie Official API'
 __description__ = 'CocoyoyoLibrairie Official API.'
 __url__ = 'https://www.camarm.dev'
 __max_version__ = g('https://www.camarm.dev/api/cocoyoyo-librairie_official_api/version').content.decode("utf-8")
-__version__ = "1.5.5"
+__version__ = "1.5.6"
 __author__ = 'CAMARM-DEV'
 __author_email__ = 'armand.camponovo@icloud.com'
 __copyright__ = 'Copyright 2021 CAMARM-DEV, inc'
@@ -155,7 +155,7 @@ class CocoyoyoLibrairie:
 
     def credits(self):
         """
-        CocoyoyoLibrairie Official Python Api By CAMARM-DEV !
+        CocoyoyoLibrairie Official API made with ❤️ by CAMARM-DEV for CAMARM-DEV, inc
         https://www.camarm.dev
         http://www.camarm.fr
         http://www.camponovo.space

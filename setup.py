@@ -1,8 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-VERSION = '1.5.5'
+VERSION = '1.5.6'
 DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
-LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
+f = open('cocoyoyo_librairie_api/README.md')
+LONG_DESCRIPTION = f.read()
+f.close()
 
 setup(
     name="cocoyoyo_librairie_api",
@@ -18,7 +20,7 @@ setup(
                       ],
     keywords='conversion',
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         'License :: OSI Approved :: MIT License',
         "Programming Language :: Python :: 3",
