@@ -24,5 +24,6 @@ setup(
         "Intended Audience :: Developers",
         'License :: OSI Approved :: MIT License',
         "Programming Language :: Python :: 3",
-    ]
+    ],
+    long_description_content_type='text/markdown'
 )
