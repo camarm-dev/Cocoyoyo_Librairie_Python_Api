@@ -1,8 +1,8 @@
 from setuptools import setup
 
-VERSION = '1.5.6'
+VERSION = '1.5.8'
 DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
-f = open('cocoyoyo_librairie_api/README.md')
+f = open('README.md')
 LONG_DESCRIPTION = f.read()
 f.close()
 
