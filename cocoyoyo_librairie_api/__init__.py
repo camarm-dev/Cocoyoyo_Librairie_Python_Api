@@ -1,3 +1,3 @@
 from cocoyoyo_librairie_api import api
 
-___version__ = '1.0.2'
+___version__ = '1.5.0'
