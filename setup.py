@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
 LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
 
@@ -12,7 +12,7 @@ setup(
     author="CAMARM-DEV",
     author_email="armand@camponovo.xyz",
     license='MIT',
-    packages=find_packages(),
+    packages=['cocoyoyo_librairie_api'],
     install_requires=['requests~=2.25.1',
                       'colorama~=0.4.4',
                       ],
