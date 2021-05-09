@@ -18,7 +18,7 @@ setup(
                       ],
     keywords='conversion',
     classifiers=[
-        "Development Status :: 1 - Version",
+        "Development Status :: 1 - Alpha",
         "Intended Audience :: Developers",
         'License :: OSI Approved :: MIT License',
         "Programming Language :: Python :: 3",
