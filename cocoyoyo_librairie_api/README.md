@@ -4,7 +4,7 @@ Official Cocoyoyolibrairie Python Api
 # Getting Started:
 ```python
 from pprint import pprint
-from cocoyoyo_librairie.api import CocoyoyoLibrairie, CocoyoyoLibrairie_Exception
+from cocoyoyo_librairie_api.api import CocoyoyoLibrairie, CocoyoyoLibrairie_Exception
 
 """ If you want to disable the message on init: """
 # module = CocoyoyoLibrairie(False)

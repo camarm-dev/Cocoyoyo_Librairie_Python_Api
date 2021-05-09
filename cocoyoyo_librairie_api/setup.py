@@ -5,7 +5,7 @@ DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
 LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
 
 setup(
-    name="cocoyoyo_librairie",
+    name="cocoyoyo_librairie_api",
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
@@ -18,7 +18,7 @@ setup(
                       ],
     keywords='conversion',
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         'License :: OSI Approved :: MIT License',
         "Programming Language :: Python :: 3",

@@ -27,7 +27,7 @@ class CocoyoyoLibrairie:
     You can run the getting_started.py file to start with the api !
     1) Import module:
 
-    `from cocoyoyo_librairie.api import CocoyoyoLibrairie`
+    `from cocoyoyo_librairie_api.api import CocoyoyoLibrairie`
 
     2) Create a variable to init the api:
 
