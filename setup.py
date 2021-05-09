@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.5.0'
+VERSION = '1.5.5'
 DESCRIPTION = 'Official CocoyoyoLibrairie API packages'
 LONG_DESCRIPTION = 'A package to search books and users on the cocoyoyolibrairie !'
 

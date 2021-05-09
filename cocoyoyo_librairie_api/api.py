@@ -15,7 +15,7 @@ __title__ = 'CocoyoyoLibrairie Official API'
 __description__ = 'CocoyoyoLibrairie Official API.'
 __url__ = 'https://www.camarm.dev'
 __max_version__ = g('https://www.camarm.dev/api/cocoyoyo-librairie_official_api/version').content.decode("utf-8")
-__version__ = "1.5.0"
+__version__ = "1.5.5"
 __author__ = 'CAMARM-DEV'
 __author_email__ = 'armand.camponovo@icloud.com'
 __copyright__ = 'Copyright 2021 CAMARM-DEV, inc'
@@ -170,7 +170,9 @@ class CocoyoyoLibrairie_Exception(Exception):
     """
 
 
-if __name__ == "cocoyoyo_librairie.api":
+if __name__ == '__main__':
+    pass
+else:
     colorama.init()
     __new_version__ = __version__.replace('.', '')
     __new_max_version__ = __max_version__.replace('.', '')
