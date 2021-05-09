@@ -2,7 +2,8 @@
 Official Cocoyoyolibrairie Python Api
 
 # Getting Started:
-```from pprint import pprint
+```python
+from pprint import pprint
 from cocoyoyo_librairie.api import CocoyoyoLibrairie, CocoyoyoLibrairie_Exception
 
 """ If you want to disable the message on init: """
@@ -44,7 +45,7 @@ Uncomment below to view result
 
 """ You can catch exceptions of API: """
 try:
-search_user = module.search_user('00')
+    search_user = module.search_user('00')
 except CocoyoyoLibrairie_Exception as e:
-print(f'An exception occurred !\n{e.__class__}: {"".join(e.args)} !')``
-`
+    print(f'An exception occurred !\n{e.__class__}: {"".join(e.args)} !')
+```
